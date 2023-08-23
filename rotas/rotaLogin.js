@@ -11,7 +11,7 @@ rotaLogin
     const senha = req.body.senha;
     if (usuario === "Renato" && senha === "123") {
       req.session.usuarioLogado = true;
-      res.redirect("/cadastroCliente.html");
+      res.redirect("/aluno2-ppiadsead/cadastroCliente.html");
     } else {
       res.send(
         " \
