@@ -3,7 +3,6 @@ import autenticar from "./seguranca/Autenticacao.js";
 import session from "express-session";
 import rotaLogin from "./rotas/rotaLogin.js";
 
-//este ip significa que todas a aplicação responde todas as interfaces disponíveis
 const host = "0.0.0.0";
 
 const porta = 3202;
