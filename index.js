@@ -29,3 +29,4 @@ app.use(autenticar, express.static("./protegido"));
 app.listen(porta, host, () => {
   console.log("Servidor escutando em", host, porta);
 });
+//teste
